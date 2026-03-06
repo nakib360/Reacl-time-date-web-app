@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icon-192.png", "icon-512.png"],
       manifest: {
-        name: "Date Widget",
-        short_name: "Dates",
+        name: "See Date",
+        short_name: "See Date",
         start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
