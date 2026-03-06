@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "date-bengali-revised": "^2.0.2",
+    "dayjs": "^1.11.19",
+    "hijri-date": "^0.2.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
