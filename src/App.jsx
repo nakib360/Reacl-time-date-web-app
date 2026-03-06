@@ -67,27 +67,27 @@ const App = () => {
           <div className="flex items-center justify-between bg-purple-50 dark:bg-purple-900/30 p-3 sm:p-4 rounded-xl shadow-inner">
             <div className="flex items-center gap-2 sm:gap-3">
               <FaRegCalendarAlt className="text-purple-600 dark:text-purple-300 text-xl sm:text-2xl" />
-              <span className="text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-lg">English</span>
+              <span className="text-gray-700 dark:text-gray-200 font-medium text-xs sm:text-lg">English</span>
             </div>
-            <span className="font-bold text-gray-900 dark:text-white text-sm sm:text-lg">{engDate}</span>
+            <span className="font-bold text-gray-900 dark:text-white text-xs sm:text-lg">{engDate}</span>
           </div>
 
           {/* Bangla Date */}
           <div className="flex items-center justify-between bg-green-50 dark:bg-green-900/30 p-3 sm:p-4 rounded-xl shadow-inner">
             <div className="flex items-center gap-2 sm:gap-3">
               <MdOutlineCalendarToday className="text-green-600 dark:text-green-300 text-xl sm:text-2xl" />
-              <span className="text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-lg">Bangla</span>
+              <span className="text-gray-700 dark:text-gray-200 font-medium text-xs sm:text-lg">Bangla</span>
             </div>
-            <span className="font-bold text-gray-900 dark:text-white text-sm sm:text-lg">{bnDate}</span>
+            <span className="font-bold text-gray-900 dark:text-white text-xs sm:text-lg">{bnDate}</span>
           </div>
 
           {/* Hijri Date */}
           <div className="flex items-center justify-between bg-yellow-50 dark:bg-yellow-900/30 p-3 sm:p-4 rounded-xl shadow-inner">
             <div className="flex items-center gap-2 sm:gap-3">
               <FaMoon className="text-yellow-600 dark:text-yellow-300 text-xl sm:text-2xl" />
-              <span className="text-gray-700 dark:text-gray-200 font-medium text-sm sm:text-lg">Hijri</span>
+              <span className="text-gray-700 dark:text-gray-200 font-medium text-xs sm:text-lg">Hijri</span>
             </div>
-            <span className="font-bold text-gray-900 dark:text-white text-sm sm:text-lg">{hijriDate}</span>
+            <span className="font-bold text-gray-900 dark:text-white text-xs sm:text-lg">{hijriDate}</span>
           </div>
         </div>
       </div>
