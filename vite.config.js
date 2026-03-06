@@ -7,7 +7,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: "autoUpdate",
+      includeAssets: ["icon-192.png", "icon-512.png"],
       manifest: {
         name: "Date Widget",
         short_name: "Dates",
@@ -17,18 +18,18 @@ export default defineConfig({
         theme_color: "#7e5bef",
         icons: [
           {
-            src: "/icon.svg",
+            src: "/icon-192.png",
             sizes: "192x192",
-            type: "image/svg+xml",
+            type: "image/png",
           },
           {
-            src: "/icon.svg",
+            src: "/icon-512.png",
             sizes: "512x512",
-            type: "image/svg+xml",
-          },
+            type: "image/png",
+          }
         ],
       },
-    }),
+    })
     tailwindcss(),
     react()
   ],
